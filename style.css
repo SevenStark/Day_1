@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+*{
+    padding:0;
+    margin: 0;
+    color: aliceblue;
+    font-family: 'Secular One', sans-serif; 
+    
+}
+/*REINICIO DE LAS PROPIEDADES*/
+:root{
+    --heightCajas:8%;
+}
+
+body{
+    display: grid;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+    width: 100%;
+    background-color: #212020;
+}
+.mainBox{ 
+        
+    width: 400px;
+    height: 500px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px 5px #3903fd6b;
+
+}
+.info{
+   
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 85%;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+    background-color: #242322;
+}
+.photo{
+    height: 45%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    
+}
+.photoimg{
+    height: 100%;
+    width: 50%;
+    overflow: hidden;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.name{
+    text-align: center;
+    height: var(--heightCajas);
+}
+.title{
+    text-align: center;
+    height: var(--heightCajas);
+}
+.location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: var(--heightCajas);
+    width: 100%;
+}
+.location h4{
+    text-align: center;
+    height: 70%;
+    width: 20%;
+    background-color: rgb(245, 0, 0);
+    border-radius: 5PX;
+}
+.description{
+    
+    height: 25%;
+    width: 100%;
+
+}
+.description p{
+    margin: 0px 30px;
+    text-align: center;    
+    text-overflow: ellipsis;
+}
+
+.contacMe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 15%;
+    background-color: rgba(0, 0, 0, 0.288);
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+   
+}
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.contacMe a img{    
+    height: 55%;
+    width: 55%;
+    
+}
+
+
